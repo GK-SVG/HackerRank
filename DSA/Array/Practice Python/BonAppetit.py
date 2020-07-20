@@ -7,9 +7,7 @@ import sys
 # Complete the bonAppetit function below.
 def bonAppetit(bill, k, b):
     total=sum(bill)
-    print('total==',total)
     total-=bill[k]
-    print('total==',total)
     actual=int(total/2)
     if actual==b:
         print('Bon Appetit')
