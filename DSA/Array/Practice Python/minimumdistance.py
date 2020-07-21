@@ -15,8 +15,7 @@ def minimumDistances(a):
                 temp=j-i
                 li.append(temp)
                 break
-    minimum=min(li)
-    return minimum
+    return min(li)
 
         
 
