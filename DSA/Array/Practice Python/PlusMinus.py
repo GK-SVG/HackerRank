@@ -18,8 +18,8 @@ def plusMinus(arr):
             zero+=1
         else:
             plus+=1
-    print('%.6f'%(minus/len(arr)))
     print('%.6f'%(plus/len(arr)))
+    print('%.6f'%(minus/len(arr)))
     print('%.6f'%(zero/len(arr)))
 
 
